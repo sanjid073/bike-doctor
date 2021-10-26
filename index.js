@@ -54,11 +54,6 @@ async function run() {
         const result = await servicesCollections.deleteOne(query);
         res.send(result);
       })
-
-
-
-
-
        
     } finally {
     //   await client.close();
