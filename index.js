@@ -67,9 +67,9 @@ async function run() {
 
 
 app.get("/", (req, res) =>{
-    res.send("running bike doctor server")
+    res.send("running bike doctor server 111111111111")
 });
 
 app.listen(port, () => {
-    console.log("running bike doctor server", port);
+    console.log("running bike doctor server 111111", port);
 })
